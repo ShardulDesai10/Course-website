@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #ece7e7;
+}
+header {
+    background: #2f5881;
+    color: #f2f1f1;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+nav a {
+    color: rgb(236, 228, 228);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color:red;
+}
+.hero {
+    background: wheat;
+    padding: 50px 20px;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+}
+
+button {
+    background: #2f4f87;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #5689ab;
+}
+
+
+.content-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 10%;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1; 
+    text-align: center;
+}
+.Python {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1; 
+    text-align: center;
+}
+.JavaScript {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1; 
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #2c3e50;
+    color: rgb(245, 241, 241);
+    margin-top: 20px;
+}
